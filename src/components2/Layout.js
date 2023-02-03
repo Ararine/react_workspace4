@@ -21,6 +21,12 @@ const Layout = () => {
           </li>
 
           <li>
+            <NavLink to="/about" style={activeStyle}>
+              About
+            </NavLink>
+          </li>
+
+          <li>
             {/*<a> 요소는 전체를 모두 렌더링하므로 <Link> 또는 <NavLink>을 사용한다.*/}
             {/* <a href="/dashboard">Dashboard</a> */}
             {/* 선택한 컴포넌트에 스타일 지정이 가능하다. */}

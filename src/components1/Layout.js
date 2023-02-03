@@ -12,6 +12,10 @@ const Layout = () => {
           </li>
 
           <li>
+            <Link to="/about">About</Link>
+          </li>
+
+          <li>
             {/*<a> 요소는 전체를 모두 렌더링하므로 <Link> 또는 <NavLink>을 사용한다.
             <Link>는 스타일을 적용할 수 없지만,
             <NavLink는 스타일을 적용할 수 있다.*/}
